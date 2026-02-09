@@ -1,0 +1,29 @@
+\begin{table}[h]
+\centering
+\caption{Hyperparameters for SFT and GRPO training phases.}
+\label{tab:hyperparameters}
+\begin{tabular}{lcc}
+\toprule
+Hyperparameter & SFT & GRPO \\
+\midrule
+Learning rate & 5e-05 & 1e-05 \\
+Batch size & 8 & 4 \\
+Epochs & 3 & 3 \\
+Max grad norm & 1.0 & 1.0 \\
+Warmup ratio & 0.1 & 0.1 \\
+\midrule
+Group size (K) & --- & 4 \\
+Clip $\epsilon$ & --- & 0.2 \\
+KL coefficient $\beta$ & --- & 0.04 \\
+Temperature & --- & 0.8 \\
+Top-p & --- & 0.9 \\
+\midrule
+Reward: F1 weight & --- & 0.7 \\
+Reward: EM weight & --- & 0.3 \\
+Length penalty & --- & 0.001 \\
+\midrule
+Max input length & \multicolumn{2}{c}{512} \\
+Max output length & \multicolumn{2}{c}{64} \\
+\bottomrule
+\end{tabular}
+\end{table}

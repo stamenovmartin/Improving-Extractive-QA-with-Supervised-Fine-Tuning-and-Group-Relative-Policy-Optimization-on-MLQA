@@ -1,0 +1,26 @@
+﻿# Python / IDE
+__pycache__/
+.idea/
+*.pyc
+
+# Outputs
+logs/
+plots/
+
+# Data
+mlqa_data/
+*.zip
+*.tar.gz
+
+# Models / checkpoints
+best_model/
+best_model_v2/
+final_model/
+final_model_v2/
+models/
+sft_model/
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+value_head.pt

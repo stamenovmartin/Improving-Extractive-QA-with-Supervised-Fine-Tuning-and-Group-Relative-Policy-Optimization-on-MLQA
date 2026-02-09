@@ -1,0 +1,318 @@
+{
+  "base_model": {
+    "metrics": {
+      "avg_f1": 0.21352760105391685,
+      "avg_exact_match": 0.13,
+      "total_samples": 100
+    },
+    "samples": [
+      {
+        "question": "Who analyzed the biopsies?",
+        "ground_truth": "Rutgers University biochemists",
+        "prediction": "Colin Pitchfork",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "who represented robert frost and walter kasza in their suit?",
+        "ground_truth": "George Washington University law professor Jonathan Turley",
+        "prediction": "George Washington University law professor Jonathan Turley",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the law suit against Groom about",
+        "ground_truth": "the USAF had illegally handled toxic materials, and that the EPA had failed in its duty to enforce the Resource Conservation and Recovery Act (which governs handling of dangerous materials)",
+        "prediction": "marriage",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what did the complainants alleged happen to them?",
+        "ground_truth": "had sustained skin, liver, and respiratory injuries",
+        "prediction": "Esterhazy was acquitted of treason charges",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "When was the aerospace magazine article published?",
+        "ground_truth": "January 2006",
+        "prediction": "1953",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "What location has become an area of interest for current UFO and other conspiracy theories?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the focus of modern UFO conspiracy?",
+        "ground_truth": "Area 51",
+        "prediction": "classified aircraft research",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "What type of airspace is Nellis?",
+        "ground_truth": "restricted",
+        "prediction": "restricted",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What kind of action do military pilots face if they stray into prohibited areas?",
+        "ground_truth": "disciplinary",
+        "prediction": "British Solomon Islands Protectorate Defence Force",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what made the testing strip for the aircraft?",
+        "ground_truth": "The lakebed",
+        "prediction": "Boeing",
+        "f1": 0.0,
+        "exact_match": 0.0
+      }
+    ]
+  },
+  "sft_model": {
+    "metrics": {
+      "avg_f1": 0.2541626414521151,
+      "avg_exact_match": 0.17,
+      "total_samples": 100
+    },
+    "samples": [
+      {
+        "question": "Who analyzed the biopsies?",
+        "ground_truth": "Rutgers University biochemists",
+        "prediction": "DNA profiling",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "who represented robert frost and walter kasza in their suit?",
+        "ground_truth": "George Washington University law professor Jonathan Turley",
+        "prediction": "George Washington University law professor Jonathan Turley",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the law suit against Groom about",
+        "ground_truth": "the USAF had illegally handled toxic materials, and that the EPA had failed in its duty to enforce the Resource Conservation and Recovery Act (which governs handling of dangerous materials)",
+        "prediction": "Marriage Act 1955 did not prohibit same-sex marriage",
+        "f1": 0.052631578947368425,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what did the complainants alleged happen to them?",
+        "ground_truth": "had sustained skin, liver, and respiratory injuries",
+        "prediction": "Esterhazy to the Ministry of War",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "When was the aerospace magazine article published?",
+        "ground_truth": "January 2006",
+        "prediction": "1880",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "What location has become an area of interest for current UFO and other conspiracy theories?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the focus of modern UFO conspiracy?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What type of airspace is Nellis?",
+        "ground_truth": "restricted",
+        "prediction": "restricted",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What kind of action do military pilots face if they stray into prohibited areas?",
+        "ground_truth": "disciplinary",
+        "prediction": "16",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what made the testing strip for the aircraft?",
+        "ground_truth": "The lakebed",
+        "prediction": "a test aircraft",
+        "f1": 0.0,
+        "exact_match": 0.0
+      }
+    ]
+  },
+  "sft_rl_v1": {
+    "metrics": {
+      "avg_f1": 0.2423896834159992,
+      "avg_exact_match": 0.15,
+      "total_samples": 100
+    },
+    "samples": [
+      {
+        "question": "Who analyzed the biopsies?",
+        "ground_truth": "Rutgers University biochemists",
+        "prediction": "DNA profiling",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "who represented robert frost and walter kasza in their suit?",
+        "ground_truth": "George Washington University law professor Jonathan Turley",
+        "prediction": "George Washington University law professor Jonathan Turley",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the law suit against Groom about",
+        "ground_truth": "the USAF had illegally handled toxic materials, and that the EPA had failed in its duty to enforce the Resource Conservation and Recovery Act (which governs handling of dangerous materials)",
+        "prediction": "the New Zealand Bill of Rights Act 1990 and the Human Rights Act 1993",
+        "f1": 0.18181818181818182,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what did the complainants alleged happen to them?",
+        "ground_truth": "had sustained skin, liver, and respiratory injuries",
+        "prediction": "Esterhazy to the Ministry of War",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "When was the aerospace magazine article published?",
+        "ground_truth": "January 2006",
+        "prediction": "1880",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "What location has become an area of interest for current UFO and other conspiracy theories?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the focus of modern UFO conspiracy?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What type of airspace is Nellis?",
+        "ground_truth": "restricted",
+        "prediction": "restricted",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What kind of action do military pilots face if they stray into prohibited areas?",
+        "ground_truth": "disciplinary",
+        "prediction": "the area surrounding the lake",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what made the testing strip for the aircraft?",
+        "ground_truth": "The lakebed",
+        "prediction": "the hazardous post-strike reconnaissance missions",
+        "f1": 0.28571428571428575,
+        "exact_match": 0.0
+      }
+    ]
+  },
+  "sft_rl_v2": {
+    "metrics": {
+      "avg_f1": 0.23560708589655951,
+      "avg_exact_match": 0.15,
+      "total_samples": 100
+    },
+    "samples": [
+      {
+        "question": "Who analyzed the biopsies?",
+        "ground_truth": "Rutgers University biochemists",
+        "prediction": "DNA profiling",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "who represented robert frost and walter kasza in their suit?",
+        "ground_truth": "George Washington University law professor Jonathan Turley",
+        "prediction": "George Washington University law professor Jonathan Turley",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the law suit against Groom about",
+        "ground_truth": "the USAF had illegally handled toxic materials, and that the EPA had failed in its duty to enforce the Resource Conservation and Recovery Act (which governs handling of dangerous materials)",
+        "prediction": "Marriage Act 1955 did not prohibit same-sex marriage",
+        "f1": 0.052631578947368425,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what did the complainants alleged happen to them?",
+        "ground_truth": "had sustained skin, liver, and respiratory injuries",
+        "prediction": "Esterhazy",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "When was the aerospace magazine article published?",
+        "ground_truth": "January 2006",
+        "prediction": "1880",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "What location has become an area of interest for current UFO and other conspiracy theories?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What was the focus of modern UFO conspiracy?",
+        "ground_truth": "Area 51",
+        "prediction": "Area 51",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What type of airspace is Nellis?",
+        "ground_truth": "restricted",
+        "prediction": "restricted",
+        "f1": 1.0,
+        "exact_match": 1.0
+      },
+      {
+        "question": "What kind of action do military pilots face if they stray into prohibited areas?",
+        "ground_truth": "disciplinary",
+        "prediction": "the USS San Juan and destroyers USS Monssen (DD-436) and Buchanan",
+        "f1": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "question": "what made the testing strip for the aircraft?",
+        "ground_truth": "The lakebed",
+        "prediction": "90",
+        "f1": 0.0,
+        "exact_match": 0.0
+      }
+    ]
+  }
+}

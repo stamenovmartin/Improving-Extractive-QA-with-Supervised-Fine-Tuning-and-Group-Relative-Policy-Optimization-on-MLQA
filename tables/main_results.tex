@@ -1,0 +1,15 @@
+\begin{table}[h]
+\centering
+\caption{Model performance on MLQA English-English test set (n=500).}
+\label{tab:main_results}
+\begin{tabular}{lcccc}
+\toprule
+Model & F1 & EM & Avg Length & $\Delta$ F1 \\
+\midrule
+Base (flan-t5-small) & 0.6240 & 0.508 & 3.37 & --- \\
++ SFT & 0.6325 & 0.516 & 2.79 & +1.4\% \\
++ GRPO (best, step 200) & \textbf{0.6682} & \textbf{0.548} & 3.17 & +7.1\% \\
++ GRPO (final, step 774) & 0.6507 & 0.534 & 3.00 & +4.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}

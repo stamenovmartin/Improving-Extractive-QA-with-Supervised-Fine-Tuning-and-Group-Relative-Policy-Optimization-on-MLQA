@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Qualitative comparison of model predictions on MLQA test samples.}
+\label{tab:qualitative}
+\begin{tabular}{p{4cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}p{2.5cm}}
+\toprule
+Question & Ground Truth & Base & SFT & GRPO-best & GRPO-final \\
+\midrule
+Where was the council of war held on 30 July 1883? & Haiphong & Haiphong \tiny{(1.00)} & Haiphong \tiny{(1.00)} & Haiphong \tiny{(1.00)} & Haiphong \tiny{(1.00)} \\
+What was the name of the transportation system mentioned? & the Madeira-Mamoré railway & Madeira-Mamoré railway \tiny{(1.00)} & Madeira-Mamoré railway \tiny{(1.00)} & Madeira-Mamoré railway \tiny{(1.00)} & Madeira-Mamoré railway \tiny{(1.00)} \\
+Why were civilians forced to stay? & presence would encourage greater resistance from the city's defenders & fear of greater resistance from the city's defenders \tiny{(0.67)} & the belief that their presence would encourage greater resistance from the city's defenders \tiny{(0.84)} & belief that their presence would encourage greater resistance from the city's defenders \tiny{(0.84)} & belief that their presence would encourage greater resistance from the city's defenders \tiny{(0.84)} \\
+Who were the companions of Muhammad? & Ali ibn Abi Talib, ʻAbdullah ibn Abbas, ʻAbdullah ibn Umar and Ubayy ibn Kaʻb & Ali ibn Abi Talib, Abdullah ibn Abbas, Abdullah ibn Umar and Ubayy ibn Kab \tiny{(0.57)} & Ali ibn Abi Talib, Abdullah ibn Abbas, Abdullah ibn Umar and Ubayy ibn Kab \tiny{(0.57)} & Ali ibn Abi Talib, Abdullah ibn Abbas, Abdullah ibn Umar and Ubayy ibn Kab \tiny{(0.57)} & Ali ibn Abi Talib, Abdullah ibn Abbas, Abdullah ibn Umar and Ubayy ibn Kab \tiny{(0.57)} \\
+Who succeeded Aristotle? & Theophrastus & Aristotle \tiny{(0.00)} & Aristotle \tiny{(0.00)} & Aristotle \tiny{(0.00)} & Aristotle \tiny{(0.00)} \\
+\bottomrule
+\end{tabular}
+\end{table*}
